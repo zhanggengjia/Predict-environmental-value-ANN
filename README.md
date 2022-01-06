@@ -1,2 +1,2 @@
 # Predict-environmental-value-ANN
-This code is ANN that can predict environmental value
+This code is ANN model that can predict environmental value. Firstly, I built a model that buildings with different size would be created randomly in 7x7 grids. Secondly, I recorded the output value, such as visibility, average hour sun and radiation, by inputting different seed to random function. And I also recorded the input value, such as the location of buildings and the size of building, that represents the status of the 3d model. After preparing the 1000 samples for training set, I used it to train ANN. Finally, this ANN model can be trained to predict the environmental value. Just saving the ANN model and executing it by cpython, and it can work in grasshopper.
